@@ -1,12 +1,12 @@
 # ZabiRepo #
 
-[![license](https://img.shields.io/github/license/usiusi360/zabireporepo.svg?style=flat-square)](https://github.com/usiusi360/zabireporepo/blob/master/LICENSE.txt)
-
+[![license](https://img.shields.io/github/license/usiusi360/zabirepo.svg?style=flat-square)](https://github.com/usiusi360/zabirepo/blob/master/LICENSE.txt)
 [![Gitter](https://badges.gitter.im/usiusi360/zabirepo.svg)](https://gitter.im/usiusi360/zabirepo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ZabiRepo -Dashboard using the API of Zabbix-
+Youtube:
 
-Youtube:[![zabirepo](http://img.youtube.com/vi/hf_Y7E9xL6k/0.jpg)](https://www.youtube.com/watch?v=hf_Y7E9xL6k)
+[![zabirepo](http://img.youtube.com/vi/hf_Y7E9xL6k/0.jpg)](https://www.youtube.com/watch?v=hf_Y7E9xL6k)
 
 
 ## Installation ##
@@ -42,24 +42,25 @@ Log in Zabbix user.
 
 ## FAQ
 
-- What's this messageÅH [the number of items has exceeded the limit] 
+- What's this message? [the number of items has exceeded the limit] 
 
 Limit the number to be displayed at the same time.
-We want you to change the following parameters
+We want you to change the following parameters.
 
-``` zabirepo/dist/js/zabirepo-param.js
-Å@GRAPH_CELL_LIMIT : 40 (default)
-	GRAPH_ITEM_LIMIT : 40 (default)
+-- zabirepo/dist/js/zabirepo-param.js
+```
+GRAPH_CELL_LIMIT : 40 (default)
+GRAPH_ITEM_LIMIT : 40 (default)
 ```
 
 - Network Error is displayed.
 I want to see if the URL path is correct.
 Default is /zabbix. But, necessary to change the different if setting.
 
-``` zabirepo/dist/js/zabirepo-param.js
+-- zabirepo/dist/js/zabirepo-param.js
+```
 var baseURL = '//' + location.host + '/zabbix';
 ```
-
 
 ## Gallery ##
 ![image](https://raw.githubusercontent.com/usiusi360/zabirepo/master/gallery/image001.png)
