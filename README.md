@@ -41,12 +41,15 @@ $ sudo git clone https://github.com/usiusi360/zabirepo.git
 
 ## Usage ##
 
-Access the browser.
+- Access the browser.
 
 ````
 http://<ZabbixServer>/zabbix/zabirepo/
 ````
-Log in with a Zabbix user.
+- Log in with a Zabbix user.
+- Detailed instructions on how to use , please look at the YouTube.
+https://www.youtube.com/watch?v=hf_Y7E9xL6k
+
 
 ## FAQ
 
