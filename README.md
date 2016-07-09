@@ -10,6 +10,14 @@ YouTube:
 [![zabirepo](http://img.youtube.com/vi/hf_Y7E9xL6k/0.jpg)](https://www.youtube.com/watch?v=hf_Y7E9xL6k)
 
 
+## Features
+- You can aggregate the Zabbix of events in the pivot table like.
+- Aggregate event information can be graphed.
+- You can see the list of the graph with a simple operation.
+
+## Requirements
+- Zabbix >= 3.0
+
 ## Installation ##
 
 2 ways to setup.
@@ -64,6 +72,9 @@ Default is /zabbix. But, necessary to change the different if setting.
 
 var baseURL = '//' + location.host + '/zabbix/';
 ```
+
+## Contact ##
+gitter: https://gitter.im/usiusi360/zabirepo
 
 ## Gallery ##
 ![image](https://raw.githubusercontent.com/usiusi360/zabirepo/master/gallery/image001.png)
