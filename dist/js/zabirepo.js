@@ -321,10 +321,6 @@ var int = {
 		}).then(function(data, status, jqXHR) {
 			zbxApi.itemNames.success_all(data);
 		}).then(function() {
-			return zbxApi.test.get();
-		}).then(function(data) {
-			zbxApi.test.success(data);
-		}).then(function() {
 			// DOM event attach
 			int.createEvents();
 
