@@ -4,7 +4,8 @@
 [![Gitter](https://badges.gitter.im/usiusi360/zabirepo.svg)](https://gitter.im/usiusi360/zabirepo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ZabiRepo -Dashboard using the API of Zabbix-
-Youtube:
+
+YouTube:
 
 [![zabirepo](http://img.youtube.com/vi/hf_Y7E9xL6k/0.jpg)](https://www.youtube.com/watch?v=hf_Y7E9xL6k)
 
@@ -20,15 +21,14 @@ Zip is downloaded and developed in zabbix directories of http server.
 ````
 $ wget https://github.com/usiusi360/zabirepo/archive/master.zip
 $ unzip master.zip
-$ sudo mv ./zabirepo-master /usr/share/zabbix/
+$ sudo mv ./zabirepo-master /usr/share/zabbix/zabirepo
 ````
-
 
 ### B. Git clone ###
 
 ````
 $ cd /usr/share/zabbix/
-$ sudo git clone https://github.com/usiusi360/vulsrepo.git
+$ sudo git clone https://github.com/usiusi360/zabirepo.git
 ````
 
 ## Usage ##
@@ -36,9 +36,9 @@ $ sudo git clone https://github.com/usiusi360/vulsrepo.git
 Access the browser.
 
 ````
-http://<ZabbixServer>/zabirepo/
+http://<ZabbixServer>/zabbix/zabirepo/
 ````
-Log in Zabbix user.
+Log in with a Zabbix user.
 
 ## FAQ
 
@@ -47,8 +47,10 @@ Log in Zabbix user.
 Limit the number to be displayed at the same time.
 We want you to change the following parameters.
 
--- zabirepo/dist/js/zabirepo-param.js
+
 ```
+* zabirepo/dist/js/zabirepo-param.js
+
 GRAPH_CELL_LIMIT : 40 (default)
 GRAPH_ITEM_LIMIT : 40 (default)
 ```
@@ -57,9 +59,10 @@ GRAPH_ITEM_LIMIT : 40 (default)
 I want to see if the URL path is correct.
 Default is /zabbix. But, necessary to change the different if setting.
 
--- zabirepo/dist/js/zabirepo-param.js
 ```
-var baseURL = '//' + location.host + '/zabbix';
+* zabirepo/dist/js/zabirepo-param.js
+
+var baseURL = '//' + location.host + '/zabbix/';
 ```
 
 ## Gallery ##
