@@ -1,0 +1,137 @@
+#base_dashboard .info-box-number {
+	font-size: 300%;
+}
+
+.alert {
+	display: none;
+	margin: 2%;
+}
+
+table#table {
+	margin: 2 auto;
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
+
+.panel {
+	margin-top: 10px;
+}
+
+.panel-heading {
+	padding: 5px;
+}
+
+.node {
+	border: solid 1px white;
+	font: 10px sans-serif;
+	line-height: 12px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 2px;
+}
+
+.c3-line, .c3-focused {
+	stroke-width: 3px !important;
+}
+
+.c3-bar {
+	stroke: white !important;
+	stroke-width: 1;
+}
+
+.c3 text {
+	font-size: 12px;
+	color: grey;
+}
+
+.tick line {
+	stroke: white;
+}
+
+.c3-axis path {
+	stroke: grey;
+}
+
+#tab_graph_setting .custom-header {
+	font-weight: bold;
+}
+
+#graph_setting-table p.ui-state-default {
+	margin: 2px;
+	position: relative;
+	padding: 4px 0;
+	cursor: pointer;
+	float: left;
+}
+
+#graph_setting-table span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+
+#graph_setting-table .graph_setting-icon {
+	cursor: move;
+}
+
+#graph_setting-tbody tr:first-child {
+	display: none;
+}
+
+.ui-autocomplete {
+	max-height: 150px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+}
+
+.ui-widget-content a {
+	color: #0088CC;
+}
+
+.menu_group {
+	cursor: pointer;
+}
+
+.menu_item {
+	cursor: pointer;
+}
+
+.graphCell {
+	float: left;
+}
+
+.graphSparater {
+	clear: left;
+}
+
+.graphLimit {
+	background-color: gainsboro;
+}
+
+.settingInfoLabel {
+	font-weight: bold;
+	color: #3C8BBC;
+}
+
+.dc-table-label {
+	background-color: #CCDDED;
+}
+
+.dc-table-column._1 {
+	font-weight: bold;
+}
+
+.flash {
+	animation: Flash 1s infinite;
+}
+
+@keyframes(Flash) { 
+	50%{opacity: 0;}
+}
