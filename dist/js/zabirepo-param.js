@@ -13,7 +13,7 @@ var graphLabel;
 var lastPeriod;
 
 var zabirepo = {
-	VERSION : "Version 0.1.0 Bata",
+	VERSION : "Version 0.1.0 Beta",
 	GRAPH_TYPE : 0,  // 0:line,1:stack
 	GRAPH_HEIGHT :300,
 	GRAPH_WIDTH : 800,
