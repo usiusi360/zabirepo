@@ -21,6 +21,7 @@ https://usiusi360.github.io/zabirepo/
 
 ## Requirements
 - Zabbix >= 3.0
+- Web Browser : Google Chrome
 
 ## Installation ##
 
