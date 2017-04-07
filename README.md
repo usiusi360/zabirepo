@@ -80,11 +80,6 @@ Default is /zabbix. But, necessary to change the different if setting.
 var baseURL = '//' + location.host + '/zabbix/';
 ```
 
-## Contact ##
-gitter: https://gitter.im/usiusi360/zabirepo
-
-Twitter: @usiusi360
-
 ## Gallery ##
 ![image](https://raw.githubusercontent.com/usiusi360/zabirepo/master/gallery/image001.png)
 ![image](https://raw.githubusercontent.com/usiusi360/zabirepo/master/gallery/image002.png)
