@@ -1,7 +1,6 @@
 # ZabiRepo #
 
 [![license](https://img.shields.io/github/license/usiusi360/zabirepo.svg?style=flat-square)](https://github.com/usiusi360/zabirepo/blob/master/LICENSE.txt)
-[![Gitter](https://badges.gitter.im/usiusi360/zabirepo.svg)](https://gitter.im/usiusi360/zabirepo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ZabiRepo -Dashboard using the API of Zabbix-
 
